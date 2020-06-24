@@ -1,0 +1,38 @@
+{
+  "name": "@kotify/eslint-config-typescript-react",
+  "version": "0.0.1",
+  "description": "Eslint config for react with typescript",
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Konstantin Alekseev <konstantin@kotify.com>",
+  "homepage": "https://github.com/kotify/eslint-configs#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotify/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kotify/eslint-configs/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-react": "^7.20.0"
+  },
+  "peerDependencies": {
+    "eslint": "7.x",
+    "prettier": "2.x",
+    "typescript": "3.x"
+  }
+}
