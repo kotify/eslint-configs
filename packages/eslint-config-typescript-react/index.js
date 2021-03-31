@@ -8,9 +8,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react",
+    "plugin:prettier/recommended",
   ],
   settings: { react: { version: "17.0" } },
   rules: {
