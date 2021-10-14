@@ -9,5 +9,5 @@
   "extends": [
     "eslint:recommended",
     "prettier"
-  ],
+  ]
 }
