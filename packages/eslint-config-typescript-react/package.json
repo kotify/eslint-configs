@@ -24,19 +24,19 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-react": "^7.26.1"
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-react": "^7.27.0"
   },
   "devDependencies": {
-    "eslint": "7.x",
+    "eslint": "8.x",
     "prettier": "2.x",
     "typescript": "4.x"
   },
   "peerDependencies": {
-    "eslint": "7.x",
+    "eslint": "8.x",
     "prettier": "2.x",
     "typescript": "4.x"
   }
