@@ -47,9 +47,11 @@ module.exports = {
     "no-console": prodErrorDevWarning,
     "prefer-const": prodErrorDevWarning,
     "no-restricted-globals": [
+      "atob",
       "error",
       "addEventListener",
       "blur",
+      "btoa",
       "captureEvents",
       "chrome",
       "clientInformation",
