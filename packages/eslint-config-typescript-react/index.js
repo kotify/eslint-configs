@@ -13,11 +13,14 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "prettier",
   ],
-  settings: { react: { version: "17.0" } },
   rules: {
     "react/jsx-uses-react": 0,
     "react/react-in-jsx-scope": 0,
     "react/prop-types": 0,
+    "react/no-unknown-property": ["error", { ignore: ["css"] }],
+    "@typescript-eslint/no-explicit-any": ["error", { ignoreRestArgs: true }],
+    "@typescript-eslint/no-non-null-assertion": "error",
+    "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/no-useless-constructor": prodErrorDevWarning,
     "@typescript-eslint/no-unused-vars": [
       prodErrorDevWarning,
