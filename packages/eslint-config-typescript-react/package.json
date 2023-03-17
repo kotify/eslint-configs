@@ -39,5 +39,6 @@
     "eslint": "8.x",
     "prettier": "2 || 3",
     "typescript": "4 || 5"
-  }
+  },
+  "gitHead": "2c980228b7c453a9ae1f6f1da8d436025d2f485e"
 }
