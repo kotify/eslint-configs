@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "eslint": "^8.19.0",
-    "eslint-config-prettier": "^8.5.0",
-    "lerna": "^5.1.8",
-    "prettier": "^2.7.1"
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "lerna": "^6.5.1",
+    "prettier": "^2.8.4"
   },
   "name": "eslint-configs",
   "license": "MIT"
