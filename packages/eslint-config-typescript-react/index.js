@@ -25,6 +25,7 @@ module.exports = {
       prodErrorDevWarning,
       { ignoreRestSiblings: true },
     ],
+    "import/consistent-type-specifier-style": ["error", "prefer-top-level"],
     "import/no-unresolved": 0,
     "import/order": [
       1,
