@@ -1,6 +1,6 @@
 {
   "name": "@kotify/eslint-config-typescript-react",
-  "version": "7.0.1",
+  "version": "8.0.0",
   "description": "Eslint config for react with typescript",
   "keywords": [
     "eslint",
